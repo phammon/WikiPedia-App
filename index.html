@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WikiSearchApp</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+      <div class="header" id="headerTop">
+      <p> WikiSearch </p>
+      </div>
+    <div class="middle" id="searchContainer">
+      <input class="form-control" id="forms" placeholder = "Search WikiPedia"></input>
+      <button type="submit" class="btn btn-primary" id="forms1">Go</button>
+      <button onclick="openInNewTab('https://en.wikipedia.org/wiki/Special:Random');" type="submit" class="btn btn-primary" id="forms2">Feeling Lucky?</button>
+      <div class="wrapper">
+        <div class="listContainer"> 
+          <ul id="list">
+          </ul>
+        </div>
+      </div>
+    <div class="header" id="headerBottom">
+    </div>
+  
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
